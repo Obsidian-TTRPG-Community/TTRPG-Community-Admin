@@ -3,75 +3,60 @@ If you want to add custom labels to your repo quickly without using the CLI, thi
 
 ## The Code
 ```js
-/*
-Purpose: Import settings for GitHub Labels.
-(c) James Perrin, MIT License, https://www.countrydawgg.com, | @jamesperrin
-Importing Instructions:
-1. Update the labels JSON object.
-2. Open a web browser.
-3. Navigate to the desired GitHub repository.
-4. Navigate to Issues tab.
-5. Navigate to Labels link.
-6. Open the web browswer's Developer Tools
-7. Navigate to the Console window.
-8. Copy and Paste the below code snippets into the Console window.
-Please visit the below link to download the export JavaScript script.
-github-labels-export.js - https://gist.github.com/jamesperrin/c2bf6d32fbb8142682f6107e561b664d
-*/
-
 const labels = [
     {
-        "name": "Nat 20",
-        "description": "The target rolled a Nat 20, and succeeded their talk check. Their request has been accepted.",
-        "color": "0e8a16"
-    },
-    {
-        "name": "Call Reinforcements",
-        "description": "A banner is slammed into the ground, summoning allies to aid in the issue.",
-        "color": "008672"
-    },
-    {
-        "name": "Conjure Enhancement",
-        "description": "The caster has conjured forth a new feature or request to be added to the stronghold.",
-        "color": "a2eeef"
-    },
-    {
         "name": "Debugging Charm",
-        "description": "The caster attempts to diagnose and resolve issues with the targeted object or system.",
+        "description": "[Bug] The caster attempts to diagnose and resolve issues with the targeted object or system.",
         "color": "d73a4a"
     },
     {
-        "name": "Inquire Follower",
-        "description": "The target is compelled to provide additional information upon questioning.",
-        "color": "d876e3"
-    },
-    {
         "name": "Mimic!",
-        "description": "A creature has infiltrated the stronghold, disguising itself as an existing issue or pull request.",
+        "description": "[Duplicate] Mimic is disguising itself as an existing issue or pull request.",
         "color": "cfd3d7"
     },
     {
-        "name": "Misguided Path",
-        "description": "The issue or pull request has been filed in the wrong stronghold, as if the target is lost.",
-        "color": "e4e669"
-    },
-    {
-        "name": "Nat 1",
-        "description": "The target rolled a Nat 1, and failed their talk check. Their request has been denied.",
-        "color": "ffffff"
-    },
-    {
-        "name": "Summon Scribe",
-        "description": "An expert in writing and art is summoned to make needed improvements and additions to the scrolls.",
-        "color": "0075ca"
+        "name": "Conjure Enhancement",
+        "description": "[Feature] The caster has conjured forth a new feature or request to be added to the stronghold.",
+        "color": "a2eeef"
     },
     {
         "name": "Voluntary Enlistment",
-        "description": "This issue is well-suited for new recruits who are eager to join the stronghold.",
+        "description": "[Good First Issue] This issue is well-suited for new recruits who are eager to join the stronghold.",
         "color": "7057ff"
+    },
+    {
+        "name": "Call Reinforcements",
+        "description": "[Help Wanted] A banner is slammed into the ground, summoning allies to aid in the issue.",
+        "color": "008672"
+    },
+    {
+        "name": "Misguided Path",
+        "description": "[Invalid] The issue or pull request has been filed is in the wrong place, as if the target is lost.",
+        "color": "e4e669"
+    },
+    {
+        "name": "Compel Secrets",
+        "description": "[Question] The target is compelled to provide additional information upon questioning.",
+        "color": "d876e3"
+    },
+    {
+        "name": "Nat 1",
+        "description": "[Wontfix] The target rolled a Nat 1, and failed their talk check. Their request has been denied.",
+        "color": "FFFFFF"
+    },
+    {
+        "name": "Nat 20",
+        "description": "[Work In Progress] The target rolled Nat 20 and passed their talk check. Their request is accepted.",
+        "color": "0E8A16"
+    },
+    {
+        "name": "Summon Scribe",
+        "description": "[Documentation] An expert in writing is summoned to make needed improvements to the scrolls.",
+        "color": "0075ca"
     }
 ];
 
+// Function to update an existing label
 // Function to update an existing label
 function updateLabel(label) {
     let flag = false;
