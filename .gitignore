@@ -16,3 +16,13 @@ application/logs/*
 !application/logs/index.html
 !application/logs/.htaccess
 /vendor/
+
+
+# Ignore Obsidian
+/.obsidian/
+/.trash/
+
+
+# Ignore IDE
+/.idea/
+/.vscode/
