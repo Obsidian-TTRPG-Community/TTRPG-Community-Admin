@@ -46,4 +46,3 @@ Github is perfect for collaboration because it makes it easy to offer suggested 
 ### Simplified Hosting
 
 One of the biggest benefits of using Github is that you don't have to go through the hassle of setting up your own Git server. Github provides all the hosting you need, so you can focus on developing and collaborating on your data. This means less time spent worrying about server setup and maintenance and more time spent making progress on your projects.
-
