@@ -1,7 +1,14 @@
-# Adding Github Labels En Masse
+---
+aliases: Adding Github Labels En Masse
+created: 2023-05-16
+tags: 
+updated: 2023-05-16
+---
+
 If you want to add custom labels to your repo quickly without using the CLI, this is the way to do it. This template is prefilled with the default labels that are created for new repos within Obsidian-TTRPG-Community, but you can change them as you will.
 
-## The Code
+### The Code
+
 ```js
 const labels = [
     {
