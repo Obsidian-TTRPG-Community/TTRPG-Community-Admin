@@ -92,16 +92,71 @@ Now, you need to make **TreeA** look like **TreeA12**. It is time to commit.
 
 ### Your First Commit
 
-We first need to add your new template to the "Loading Area."
+First you need to add your new template to the "Loading Area."
 
 ```
-git add 
+git add System-Agnostic/Templates/my-template.md
 ```
 
+Then, you need to load to put the template in the vehicle for transport. Commit messages are optional, however, I recommend getting into the habit from the get-go. These messages help others determine what you did in your commit.
 
 ```
 # Load the Template into Git
-git commit -a -m ""
+git commit -a -m "Template that adds 1d6 Rolls to all Characters"
 # -a means All
 # -m means Message
+# Messages for commits should be wrapped in ""
 ```
+
+Once submitted, you should get a message like this:
+
+```bash
+2 files changed, 107 insertions(+), 1 deletion(-)
+
+create mode 100644 New-to-TTRPG-Community/Github-Newbie/2-Getting-Your-Feet-Wet.md
+```
+
+### Your First Push
+
+**TreeA12** is loaded into the vehicle, and now we need to drive them to **TreeA**. This is called a *push*.
+
+```bash
+git push origin TreeA12
+```
+
+Git will respond with a bunch of messages:
+
+```bash
+Counting objects: 5, done.
+Delta compression using up to 8 threads.
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 340 bytes | 0 bytes/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+To https://github.com/sigrunixia/TreeA12
+ * [new branch]      TreeA12 -> TreeA12
+```
+
+Now go back to the Github Website to your ObsidianTTRPGShare Fork, and refresh. After Refresh, you should see a message in yellow up top that indicates that `TreeA12 has had recent pushes` and a button asking to initiate a Pull Request.
+
+### Your First Pull Request
+
+A Pull Request (PR) tells **TreeA** that **TreeA12** has something awesome, and that **TreeA** should adopt it. When you craft your pull request, you send a letter to TreeA. It puts on a pair of glasses, carefully reads it over, and then...
+
+**Option A**: TreeA is a Tree and is Not Sentient, it has no idea what a Pull Request is.
+- The Pull Request sits there in perpetuity.
+- Sometimes this is due to not creating an issue to the pull request, or following all the terms of a Contributing.MD, which is specific to repo.
+- Sometimes, the repository owner filters away all notifications and does not realize a PR came in at all.
+
+**Option B**: TreeA "No Thanks"
+- The Repository Owners Closes the pull request without integrating it in.
+
+**Option C**: "This Looks Good, but I need something changed."
+- The Repository Owners respond and ask for changes to the PR before they will accept it into TreeA.
+	- You make the changes, and then it ends up being one of the other options after the fact.
+
+**Option D**: "This is great!" **TreeA** throws on the character template bling.
+- The Repository Owners accept the changes to **TreeA** with no qualms. 
+
+## Next Steps
+
+This was a very, very basic overview of how to clone, commit, push, and send a PR. Next, we'll get into some of the weeds to make sure those procedures are as clean as possible.

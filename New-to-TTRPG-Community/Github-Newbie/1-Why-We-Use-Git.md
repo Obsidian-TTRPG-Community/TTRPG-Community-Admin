@@ -5,6 +5,8 @@ tags:
 updated: 2023-05-16
 ---
 
+<--- Back to [Github Newbie](0-Github-Newbie.md) \| Forward to [Getting Your Feet Wet](2-Getting-Your-Feet-Wet.md) --->
+
 ## Example Repos
 
 Repos come in all shapes and sizes, with many different organization forms. Poke around on some of these repositories below to get a feel for the variation of structure, and check on the commits to see what changes happen big and small. You won't break anything, we promise.
@@ -46,3 +48,7 @@ Github is perfect for collaboration because it makes it easy to offer suggested 
 ### Simplified Hosting
 
 One of the biggest benefits of using Github is that you don't have to go through the hassle of setting up your own Git server. Github provides all the hosting you need, so you can focus on developing and collaborating on your data. This means less time spent worrying about server setup and maintenance and more time spent making progress on your projects.
+
+---
+
+<--- Back to [Github Newbie](0-Github-Newbie.md) \| Forward to [Getting Your Feet Wet](2-Getting-Your-Feet-Wet.md) --->

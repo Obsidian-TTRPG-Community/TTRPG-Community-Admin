@@ -5,6 +5,8 @@ tags:
 updated: 2023-05-16
 ---
 
+\| Forward to [Why We Use Git](1-Why-We-Use-Git.md) --->
+
 Attention TTRPG players and game masters! If you're interested in organizing your TTRPG project files, tracking changes, and collaborating with others, then you probably want to learn how to use Git and Github. Although it may seem daunting at first, I hope to provide you with a beginner-friendly guide to get started.
 
 Git and GitHub are essential tools for version control, allowing you to keep track of changes in your code and collaborate with others seamlessly. With minimal effort, you can set up an account on GitHub, install git, and start using it for your TTRPG projects.
@@ -21,3 +23,4 @@ Here are some things you can do with git and github:
 
 If you're new to Git and GitHub, don't worry! This tutorial is designed to help you get started. There are also more thorough resources available if you want to dive deeper. Let's get started and streamline your TTRPG project management!
 
+\| Forward to [Why We Use Git](1-Why-We-Use-Git.md) --->
