@@ -14,13 +14,21 @@ Repos come in all shapes and sizes, with many different organization forms. Poke
 These repositories are in no particular order and we recommend at least glancing at them all.
 
 A. ebullient's [TTRPG-CLI Repo](https://github.com/ebullient/ttrpg-convert-cli)
+
 B. Obsidian [Developer Docs Repo](https://github.com/obsidianmd/obsidian-developer-docs)
+
 C. Obsidian [Tasks Repo](https://github.com/obsidian-tasks-group/obsidian-tasks)
+
 D. SlRvb's ITS [Theme Repo](https://github.com/SlRvb/Obsidian--ITS-Theme)
-E. Plotto, A [Repo for Fiction](https://github.com/garykac/plotto).
+
+E. Plotto, A [Repo for Fiction](https://github.com/garykac/plotto)
+
 F. Awesome [Repositories List Repo](https://github.com/pawelborkar/awesome-repos)
+
 G. Cosmos [Book of Space](https://github.com/cosmos-book/cosmos-book.github.io)
+
 H. Scum and [Villany RPG Repo](https://github.com/mburnamfink/Scum-Villany-RPG)
+
 I. Blades in the [Dark SRD Repo](https://github.com/amazingrando/blades-in-the-dark-srd-content)
 
 ## Git
