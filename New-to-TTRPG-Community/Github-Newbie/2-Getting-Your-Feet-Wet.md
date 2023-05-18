@@ -10,7 +10,7 @@ updated: 2023-05-17
 
 The default documentation of [GitHub](https://github.com/git-guides) is very comprehensive and visual, and we recommend you read through them. However, we'll include a Quickstart.
 
-Would you rather play a game instead to learn? Check out [Learn Git Branching](https://learngitbranching.js.org)
+Would you rather play a game instead to learn? Check out [Learn Git Branching](https://learngitbranching.js.org).
 
 ## Setting It Up
 
