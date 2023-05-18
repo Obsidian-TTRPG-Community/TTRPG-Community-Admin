@@ -5,6 +5,9 @@ tags: []
 updated: 2023-05-17
 ---
 
+<--- Back to [Why We Use Git](1-Why-We-Use-Git.md) \| Forward to [Fine Tuning Your Basics](3-Fine-Tuning-Your-Basics.md) --->
+
+
 The default documentation of [GitHub](https://github.com/git-guides) is very comprehensive and visual, and we recommend you read through them. However, we'll include a Quickstart.
 
 ## Setting It Up
@@ -160,3 +163,5 @@ A Pull Request (PR) tells **TreeA** that **TreeA12** has something awesome, and 
 ## Next Steps
 
 This was a very, very basic overview of how to clone, commit, push, and send a PR. Next, we'll get into some of the weeds to make sure those procedures are as clean as possible.
+
+<--- Back to [Why We Use Git](1-Why-We-Use-Git.md) \| Forward to [Fine Tuning Your Basics](3-Fine-Tuning-Your-Basics.md) --->
